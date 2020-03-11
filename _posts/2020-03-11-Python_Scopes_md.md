@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Python Scopes"
+date: 2020-03-11 10:46:08 -0500
+---
+
 # Everything You've Wanted to Know About Scope*
 ### *But were too afraid to ask 
 
