@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Naive Bayes From Scratch"
-date: 2020-04-28 10:46:08 -0500
+date: 2020-04-28
 ---
 
 # Naive Bayes From Scratch
