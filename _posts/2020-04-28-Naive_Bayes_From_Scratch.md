@@ -163,7 +163,7 @@ sns.distplot(df['spinRate'],ax=axes[1])
 
 
 
-![png](output_12_1.png)
+![png](/images/output_12_1.png)
 
 
 Next, we can use a simple scatter plot to see if our features provide reasonable separation between their respective classes.
@@ -183,7 +183,7 @@ sns.scatterplot(x=df['endSpeed'],y=df['spinRate'],hue=df['is_fastball'])
 
 
 
-![png](output_14_1.png)
+![png](/images/output_14_1.png)
 
 
 ## Building our Classifier
