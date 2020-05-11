@@ -651,7 +651,7 @@ plot_confusion_matrix(y_test,y_pred,classes)
 ```
 
 
-![png](images/output_28_0.png)
+![png](/images/output_28_0.png)
 
 
 ### Further Considerations
