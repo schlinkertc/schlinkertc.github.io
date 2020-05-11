@@ -7,7 +7,9 @@ date: 2020-05-05
 # Using a Movie's Plot Description to Classify Genre
 
 
-The goal is to use natural language processing to create a model that predicts a movie's genre using it's plot summary. We have a dataset of 10,000 movies, each of which is classified as one of nine genres. To prepare the data for modeling, we'll use sklearn's CountVectorizer TF-IDF transformer. The countvectorizer uses a custom lemmatizer built with NLTK's WordNetLemmatizer. There is a significant class imbalance; certain genres are more prevelant than others. We will address this using SMOTE, or Synthetic Minority Over Sampling Technique, and a stratified Kfold split during the model cross-validation process. Finally, we'll tune the model's parameters using sklearn's RandomSearch and GridSearch.
+The goal is to use natural language processing to create a model that predicts a movie's genre using it's plot summary. We have a dataset of 10,000 movies, each of which is classified as one of nine genres. To prepare the data for modeling, we'll use sklearn's CountVectorizer TF-IDF transformer. The countvectorizer uses a custom lemmatizer built with NLTK's WordNetLemmatizer. There is a significant class imbalance; certain genres are more prevelant than others. We will address this using SMOTE, or Synthetic Minority Over Sampling Technique, and a stratified Kfold split during the model cross-validation process. Finally, we'll tune the model's parameters using sklearn's RandomSearch and evaluate our results on a previously unseen test set.
+
+You can check out all of the code and download the data [here](https://github.com/schlinkertc/Movie-Plot-Classification).
 
 ### Import Libraries and Load the Data
 
